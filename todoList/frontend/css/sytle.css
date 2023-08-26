@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    padding: 0;
+   
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    
+}
+
+.top{
+    display: flex;
+    flex-direction: column;
+    background-color: blueviolet;
+    
+    
+    align-items:center;
+    
+}
+.inp{
+    margin-bottom: 20px;
+
+}
+
+.list{
+    background-color: whitesmoke;
+}
+
+li{
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+li:nth-child(even)
+{
+   background-color: rgb(141, 236, 236); 
+
+}
+li:nth-child(odd){
+    background-color: whitesmoke;
+}
+
+.remove-btn{
+    border: none;
+    border-radius: 30px;
+    right: 10px;
+}
